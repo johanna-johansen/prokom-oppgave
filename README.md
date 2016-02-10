@@ -12,7 +12,7 @@ Oppgave 1 – Lier kommune nettside
 * Nettsiden er tested kun i "evergreen" nettlesere.
 * Nettsiden innholder også noen få tilgjengelighets elementer som Accesibility navigation.
 
-Oppgave  – mobil skjema
+Oppgave 2 – mobil skjema
 ----------------------------------
 * Gitt tidsbegresningen, valgte jeg å bruke jQuery Mobile for å løse denne oppgaven. 
 * Det er brukt stylingen og funksjonaliten til jQuery Mobile.
