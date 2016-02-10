@@ -13,6 +13,7 @@ Oppgave 1 – Lier kommune nettside
 * Når det gjelder oppsett, valgte jeg å eksperimentere med flexbox, siden den har begynt å bli ganske bra støttet nå.
 * Nettsiden er tested kun i "evergreen" nettlesere.
 * Nettsiden innholder også noen få tilgjengelighets elementer som Accesibility navigation.
+* Mappen inkluderer også sass kilde filene til CSS.
 
 Oppgave 2 – mobil skjema
 ----------------------------------
