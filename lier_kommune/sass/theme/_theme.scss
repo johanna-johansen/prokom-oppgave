@@ -1,0 +1,28 @@
+/* TYPOGRAPHY
+-------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+$font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-headers: "Open Sans", Helvetica, Arial, sans-serif;
+
+$font-size-small:         0.875rem;     //14px
+$font-size-regular:       1rem;        //16px
+$font-size-x-regular:     1.063rem;    //17px
+$font-size-xx-regular:    1.125rem;    //18px
+$font-size-xxx-regular:   1.188rem;    //19px
+$font-size-large:         1.750rem;  //28px
+
+$font-weight-light:   300;
+$font-weight-normal:  500;
+$font-weight-bold:    700;
+
+/* COLORS
+-------------------------------*/
+$color-bgd:           #fff;
+$color-fgd:           #000;
+$color-neon-green:    #c5d768;
+$color-pale-green:    #f0f5d9;
+$color-pale-blue:     #cdeaf2;
+$color-light-grey:    #f1f1f1;
+$color-grey:          #828281;

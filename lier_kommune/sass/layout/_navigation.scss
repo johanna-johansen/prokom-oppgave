@@ -1,0 +1,117 @@
+
+/* modifier */
+.nav--utility .menu{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+   
+  -webkit-justify-content: flex-end;   
+  justify-content: flex-end;
+  
+  
+  -webkit-flex-flow: wrap column;
+  flex-flow: column wrap;
+  
+   @media screen and (min-width: 500px){
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+.nav--primary .menu{
+  @media screen and (min-width: 768px){
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    
+    justify-content: space-between;
+    -webkitjustify-content: space-between;
+    -webkit-flex-flow: wrap row;
+    flex-flow: wrap row;
+    position: relative;
+    
+    width: 100%;
+  }
+}
+.nav--primary .menu .menu-item{
+  flex-basis: 200px;
+}
+
+
+.nav--primary .menu .menu-item > a{     
+    display: flex; 
+    height: 100%;
+    padding: 0 30px;       
+    align-items: flex-start;
+    
+  @media screen and (min-width: 768px){  
+    justify-content: center; 
+  }
+}
+
+.nav--primary .menu .menu-item > a h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  @media screen and (min-width: 768px){    
+    margin-top: 80px;    
+    text-align: center;
+  }
+}
+
+.nav--primary .menu .menu-item ul{
+  overflow: auto;
+  
+  @media screen and (min-width: 768px){
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      
+      -webkit-flex-flow: wrap row;
+      flex-flow: wrap row;
+      justify-content: flex-start;
+      align-content: space-between; 
+      padding: 10px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+    
+
+.nav--primary .menu .menu-item ul li{
+    font-size: $font-size-small;
+    flex-basis: 198px;
+    margin: 10px;
+    padding: 5px 0 5px 40px;
+}
+.nav--sec{
+  margin-bottom: 30px;
+}
+
+.nav--sec__block{
+  @media screen and (min-width: 768px){
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+}
+
+.nav--sec__block ul{
+  @media screen and (min-width: 768px){
+    display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      
+      -webkit-flex-flow: wrap row;
+      flex-flow: wrap row;
+  }
+}
+

@@ -1,0 +1,126 @@
+/* modifier */
+.nav--utility .menu{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  @media screen and (min-width: 500px){
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+}
+.nav--utility .menu .menu-item{ 
+  font-size: $font-size-small;
+  padding: 5px 10px;
+  
+  @media screen and (min-width: 500px){ 
+    background-color: $color-bgd;
+  }
+    
+}
+
+.nav--utility .menu .menu-item a{
+   @media screen and (min-width: 500px){    
+      border-left: solid 1px $color-grey;
+      padding-left: 10px;
+  }
+  
+}
+
+.nav--utility .menu .menu-item:first-child a{
+  border-left: solid 0;
+}
+
+
+.nav--primary .menu .menu-item{
+    padding-bottom: 5px;
+  @media screen and (min-width: 768px){
+    padding-bottom: 20px;
+  }
+  
+  &.current{
+    @media screen and (min-width: 768px){
+      padding-bottom: 0;
+    }
+  }
+}
+.nav--primary .menu .menu-item > a{
+  background-color:$color-pale-green;
+    position: relative;
+}
+
+.nav--primary .menu .menu-item > a h3{
+  font-weight: $font-weight-normal;
+  line-height: 1;
+}
+
+.nav--primary .menu .menu-item .menu-item__icon1{  
+   @media screen and (min-width: 768px){
+    @include navImg();
+    background: transparent url("media/img/image_sprite.png") no-repeat scroll 0 -290px / 80px auto;
+   }
+}
+.nav--primary .menu .menu-item .menu-item__icon2{  
+   @media screen and (min-width: 768px){
+    @include navImg();
+    background: transparent url("media/img/image_sprite.png") no-repeat scroll 0 -55px / 65px auto;
+   }
+}
+.nav--primary .menu .menu-item .menu-item__icon3{  
+   @media screen and (min-width: 768px){
+    @include navImg();
+    background: transparent url("media/img/image_sprite.png") no-repeat scroll 6px 5px / 65px auto;
+   }
+}
+.nav--primary .menu .menu-item .menu-item__icon4{  
+   @media screen and (min-width: 768px){
+    @include navImg();
+    background: transparent url("media/img/image_sprite.png") no-repeat scroll 6px -115px / 65px auto;
+   }
+}
+.nav--primary .menu .menu-item .menu-item__icon5{  
+   @media screen and (min-width: 768px){
+    @include navImg();
+    background: transparent url("media/img/image_sprite.png") no-repeat scroll 6px -175px / 65px auto;
+   }
+}
+
+.nav--primary .menu .menu-item.current > a{
+    background-color: $color-pale-blue;
+    margin-bottom:0;
+  }
+ 
+ .nav--primary .menu .menu-item.current ul{
+   background-color: $color-pale-blue;
+ }
+.nav--primary .menu .menu-item.current ul li{
+  background-color: $color-bgd;  
+  background: #fff url("media/img/image_sprite.png") no-repeat scroll 8px -878px / 185px auto;
+}
+
+.nav--sec__title{
+  font-weight: $font-weight-light;
+  font-size: $font-size-large;  
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.nav--sec__block ul li{
+    border-left: solid 0 $color-grey;
+    padding-left: 0;
+    padding-right: 0;
+  @media screen and (min-width: 500px){
+    border-left: solid 1px $color-grey;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  &:first-child{
+    border-left:0;
+    padding-left: 0;
+  }
+}
+
+.nav--sec__block a{
+  text-decoration: underline;
+}
+

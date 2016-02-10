@@ -1,0 +1,66 @@
+
+
+
+.featured-content{
+  overflow: hidden;
+}
+.featured-content__title{
+  border-bottom: 2px solid $color-grey;
+  font-weight: 300;
+  font-size: $font-size-large;  
+  margin-bottom: 25px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.featured-content--text{
+  background-color: $color-bgd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.featured-content--text a, 
+.featured-content--text a:hover,
+.featured-content--text a:focus,
+.featured-content--text a:active{
+  cursor: pointer;
+  text-decoration: none;
+}
+ 
+
+.featured-content--text a span,
+.featured-content--text a:hover span,
+.featured-content--text a:focus span,
+.featured-content--text a:active span{
+  text-decoration: underline;
+}
+.featured-content--text__title{
+  font-weight: $font-weight-light;
+  font-size: $font-size-xxx-regular;
+  margin: 0;
+}
+
+.cont-nav{
+  display: block;
+}
+.cont-nav--back,
+.cont-nav--next{
+  font-family: $font-headers;
+  font-weight: $font-weight-light;
+  text-transform: uppercase;
+  width: 50%;
+}
+.cont-nav--back{
+  float: left;
+}
+.cont-nav--next{
+  float: right;
+  text-align: end;
+}
+
+.cont-nav--all{
+  margin: 30px 0;
+  padding-top: 30px;
+  width: 100%;
+}

@@ -1,0 +1,44 @@
+
+.banner__layout, .nav{
+  display: block;
+  padding-left: 15px;
+    padding-right: 15px;
+  
+  @media screen and (min-width: 768px){
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+  }
+  
+}
+
+.featured-content{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.brand img{
+  width: 100%;
+  max-width: 380px;
+  
+  @media screen and (min-width: 768px){
+    width: 380px;
+  }
+}
+
+
+

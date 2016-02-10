@@ -1,0 +1,39 @@
+
+.banner__decoration{
+  background-color: $color-neon-green;
+}
+
+.search__button, .search__input{
+  
+}
+
+.search__input{  
+  padding-right: 2px;
+}
+.search__input input{
+  @include form-styling();
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+   border-top-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  
+  @media screen and (min-width: 768px){    
+    padding-left: 30px;
+  }
+}
+
+.search__button button{
+  @include form-styling();  
+  background: #f1f1f1 url("media/img/image_sprite.png") no-repeat scroll 10px -570px / 130px auto;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

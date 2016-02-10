@@ -1,0 +1,14 @@
+@mixin form-styling(){
+  background-color: $color-light-grey;
+  border: solid 1px $color-grey;
+  height: 50px;
+}
+
+@mixin navImg(){
+  display: block;
+  height: 53px;
+  left: 72px;
+  position: absolute;
+  top: 15px;
+  width: 60px;
+}

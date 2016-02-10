@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Spørreskjema – Survey International</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link href="jquery-mobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	if (navigator.userAgent.match(/(iPad.*|iPhone.*|iPod.*);.*CPU.*OS 7_\d/i)) {
+		$("body").addClass("ios7");
+		$("body").append('');
+	}
+}); 
+</script>
+</head> 
+<body> 
+
+<div data-role="page" id="survey" data-theme="a" data-add-back-btn="true">
+<div data-role="header" data-theme="a">
+  <h1>Spørreskjema</h1>
+</div>
+<div data-role="content">
+<p>Takk for at du tar deg tid å svare på dette skjema!</p>
+<form id="surveyForm" action="">
+<div data-role="fieldcontain">
+  <label for="nameText">Navn:</label>
+  <input type="text" name="nameText" id="nameText" value=""  />
+</div>
+<div data-role="fieldcontain">
+  <label for="emailSurvey">E-post:</label>
+  <input type="email" name="emailSurvey" id="emailSurvey" value=""  />
+  <div data-role="fieldcontain">
+    <fieldset data-role="controlgroup">
+      <legend>Var nettsiden nyttig for deg?</legend>
+      <input name="attendingRadio" type="radio" id="attendingRadio_0" title="Yes" value="yes" />
+      <label for="attendingRadio_0">Ja, absolut!</label>
+      <input name="attendingRadio" type="radio" id="attendingRadio_1" title="No" value="no" />
+      <label for="attendingRadio_1">Nei, desverre.</label>
+      <input name="attendingRadio" type="radio" id="attendingRadio_2" title="Not Sure" value="not-sure" />
+      <label for="attendingRadio_2">Jeg vet ikke ennå.</label>
+    </fieldset>
+  </div>
+  <div data-role="fieldcontain">
+    <fieldset data-role="controlgroup">
+      <legend>Hvordan fant du ut om oss? (Velg alle som gjelder.)</legend>
+      <input name="hearCheckbox" type="checkbox" class="custom" id="hearCheckbox_0" title="Family" value="family" />
+      <label for="hearCheckbox_0">Familie</label>
+      <input name="hearCheckbox" type="checkbox" class="custom" id="hearCheckbox_1" title="Friend" value="friend" />
+      <label for="hearCheckbox_1">Venner</label>
+      <input name="hearCheckbox" type="checkbox" class="custom" id="hearCheckbox_2" title="Ad" value="ad" />
+      <label for="hearCheckbox_2">Trykt reklame</label>
+      <input name="hearCheckbox" type="checkbox" class="custom" id="hearCheckbox_3" title="Web" value="web" />
+      <label for="hearCheckbox_3">Nett</label>
+    </fieldset>
+  </div>
+  <div data-role="fieldcontain">
+    <label for="slider">Gi nettsiden vår et karakter for brukervennlighet.</label>
+    <input type="range" name="slider" id="slider" value="5" min="0" max="10" />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="flipswitch">Kan vi kontakte deg?</label>
+    <select name="flipswitch" id="flipswitch" data-role="slider">
+      <option value="yes">Ja</option>
+      <option value="no" selected>Nei</option>
+    </select>
+  </div>
+</div>
+<a href="#dialog" data-rel="dialog"><input name="submitSurvey" type="submit" id="submitSurvey" value="Send Spørreskjema" data-icon="star" /></a></form>
+</div>
+<div data-role="footer" data-theme="a">
+  <h4>Survey International &copy; 2016</h4>
+</div>
+</div>
+
+<div data-role="page" id="dialog" data-theme="a" data-add-back-btn="true">
+<div data-role="header" data-theme="a">
+  <h1>Spørreskjema</h1>
+</div>
+<div data-role="content">
+	<p>Takk for din tilbakemelding!</p>
+	</div>
+</div>
+</body>
+</html>

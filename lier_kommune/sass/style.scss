@@ -1,0 +1,43 @@
+/*! Project Meta
+--------------------------------------------------------------
+Theme Name: Prokom assignment
+Theme URI: 
+Description: CSS implementation of mock-up for Lier Kommune
+
+Author: Johanna Johansen
+Author URI: http://johansen.dynalias.org/
+Version:1.1
+-------------------------------------------------------------- */
+
+
+/* UTILS
+-------------------------------*/
+@import "utils/normalize";
+@import "utils/mixins";
+
+/* THEME
+-------------------------------*/
+@import "theme/theme";  
+
+/* BASE
+-------------------------------*/
+@import "base/base";
+
+/* MODULE
+-------------------------------*/
+@import "module/navigation";
+@import "module/banner";
+@import "module/featured";
+@import "module/content";
+
+/* STATE
+-------------------------------*/
+@import "state/navigation";
+
+/* LAYOUT
+-------------------------------*/
+@import "layout/banner";
+@import "layout/main";
+@import "layout/navigation";
+@import "layout/content";
+
