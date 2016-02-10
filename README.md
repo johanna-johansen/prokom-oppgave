@@ -1,7 +1,9 @@
 Prokom – oppgaver
 ============================================================
 Repository innholder to oppgaver som er del av jobb intervjuet med Prokom.
+
 Tid for å løse oppgavene: 2-6 timer.
+
 
 Oppgave 1 – Lier kommune nettside
 ----------------------------------
